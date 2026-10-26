@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de Usuarios - SENA</title>
+</head>
+<body>
+    <div style="margin: 30px; font-family: Arial, sans-serif;">
+        <h2>Formulario de Registro Web (GA7-EV02)</h2>
+        
+        <!-- El formulario envía los datos mediante el método POST al Servlet llamado "RegistroServlet" -->
+        <form action="RegistroServlet" method="POST">
+            <label>Nombre:</label><br>
+            <input type="text" name="nombre" required style="padding: 5px; width: 300px; margin-bottom: 10px;"><br>
+            
+            <label>Correo Electrónico:</label><br>
+            <input type="email" name="correo" required style="padding: 5px; width: 300px; margin-bottom: 15px;"><br>
+            
+            <button type="submit" style="padding: 8px 15px; background-color: #28a745; color: white; border: none; cursor: pointer;">Registrar</button>
+        </form>
+    </div>
+</body>
+</html>
